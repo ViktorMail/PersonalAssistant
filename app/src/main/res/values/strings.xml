@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Голосовой помощник</string>
+    
+    <!-- Main Activity -->
+    <string name="title_activity_main">Голосовой помощник</string>
+    <string name="voice_button_description">Активировать голосовое управление</string>
+    <string name="sync_button_description">Синхронизировать с облаком</string>
+    <string name="settings_button_description">Настройки</string>
+    
+    <!-- Setup Activity -->
+    <string name="title_activity_setup">Настройка</string>
+    <string name="setup_complete">Настройка завершена</string>
+    <string name="setup_skip">Пропустить</string>
+    
+    <!-- Voice Commands -->
+    <string name="voice_command_add">Добавь событие</string>
+    <string name="voice_command_show">Покажи события</string>
+    <string name="voice_command_delete">Удали событие</string>
+    <string name="voice_command_complete">Отметь как выполненное</string>
+    
+    <!-- Status Messages -->
+    <string name="status_ready">Готов к работе</string>
+    <string name="status_listening">Слушаю…</string>
+    <string name="status_processing">Обрабатываю…</string>
+    <string name="status_syncing">Синхронизация…</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Отсутствует интернет соединение</string>
+    <string name="error_voice_recognition">Ошибка распознавания речи</string>
+    <string name="error_cloud_sync">Ошибка синхронизации с облаком</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_events">События</string>
+    <string name="notification_channel_reminders">Напоминания</string>
+    <string name="notification_event_reminder">Напоминание о событии</string>
+    <string name="notification_sync_complete">Синхронизация завершена</string>
+    
+    <!-- Cloud Sync -->
+    <string name="cloud_sync_enabled">Синхронизация включена</string>
+    <string name="cloud_sync_disabled">Синхронизация отключена</string>
+    <string name="cloud_sync_pending">Ожидание сети</string>
+
+    <!-- Event Categories -->
+    <string name="category_work">Работа</string>
+    <string name="category_personal">Личное</string>
+    <string name="category_health">Здоровье</string>
+    <string name="category_education">Обучение</string>
+    <string name="category_other">Другое</string>
+</resources>

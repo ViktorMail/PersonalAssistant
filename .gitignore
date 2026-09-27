@@ -1,0 +1,79 @@
+# ========== Виртуальные окружения ==========
+tf_env/
+venv/
+env/
+ENV/
+.venv/
+.env
+.Python
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ========== PyInstaller (сборка exe) ==========
+*.spec
+build/
+dist/
+distribution/
+release/
+*.manifest
+
+# ========== Gradle (Java) ==========
+.gradle/
+gradle-app.setting
+local.properties
+hs_err_pid*.log
+replay_pid*.log
+
+# ========== Датасеты (регенерируются) ==========
+dataset_*.csv
+*.csv
+
+# ========== AI_Data (проверить!) ==========
+AI_Data/
+data/
+
+# ========== Графики обучения ==========
+training_*.png
+*.png
+
+# ========== Логи ==========
+*.log
+logs/
+
+# ========== Модели (опционально — если хотите исключить) ==========
+# *.keras
+# *.h5
+# *.pkl
+# best_model*.keras
+# model_*.keras
+# scaler_*.pkl
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# ========== Система ==========
+.DS_Store
+Thumbs.db
+
+# ========== Временные файлы ==========
+*.tmp
+*.bak
+*.swp

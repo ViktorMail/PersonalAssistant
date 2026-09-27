@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="file" path="."/>
+    <exclude domain="file" path="cloud_backup_events.json"/>
+    <exclude domain="sharedpref" path="cloud_prefs.xml"/>
+</full-backup-content>
